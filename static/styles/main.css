@@ -51,7 +51,9 @@ li > a{
 }
 
 .borda {
-    outline: 1px solid gray;
+    outline: 1px solid lightgrey; 
+    padding: 10%;
+    margin-bottom: 30px
 }
 
 .footerp{
@@ -61,6 +63,18 @@ li > a{
 
 .sep120top{
     padding-top: 120px;
+}
+
+.sep200top{
+    padding-top: 200px;
+}
+
+.sep90top{
+    padding-top: 90px;
+}
+
+.sep20top{
+    padding-top: 20px;
 }
 
 .sep50bot{
@@ -79,6 +93,19 @@ li > a{
     padding-bottom: 90px;
 }
 
+.fixh3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 0px;
+}
+
+.fix2h3{
+    margin-top: 0px;
+    padding-right: 20px;
+}
+
+
+
 @font-face {
     font-family: "opensans";
     src: url(../fonts/OpenSans-Light.ttf);
@@ -93,10 +120,27 @@ li > a{
     src: url(../fonts/OpenSans-Bold.ttf);
 }
 
-.opensansbold{
+.opensansBold{
     font-family: opensansbold;
 }
 
+@font-face {
+    font-family: "opensanssemibold";
+    src: url(../fonts/OpenSans-Semibold.ttf);
+}
+
+.opensansSemiBold{
+    font-family: opensanssemibold;
+}
+
+@font-face {
+    font-family: "opensansitalic";
+    src: url(../fonts/OpenSans-Italic.ttf);
+}
+
+.opensansItalic{
+    font-family: opensansitalic;
+}
 
 @font-face {
     font-family: "georgia";
@@ -105,4 +149,25 @@ li > a{
 
 .georgia{
     font-family: georgia;
+}
+
+@font-face {
+    font-family: "georgiai";
+    src: url(../fonts/georgiai.ttf);
+}
+
+.georgiaItalic{
+    font-family: georgiai;
+}
+
+.ourGray{
+    color: #8A8A8A;
+}
+
+.fancyBlack{
+    color: #363636;
+}
+
+.atGreen{
+    color: #16A086;
 }
