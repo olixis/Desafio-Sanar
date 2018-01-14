@@ -1,0 +1,108 @@
+.navbar-custom .navbar-brand {
+    height: 80px;
+}
+
+.navbar-custom .nav>li>a {
+    padding-top: 35px;
+    padding-bottom: 3px;
+}
+
+.navbar-custom .navbar-toggle {
+    padding: 10px;
+    margin: 25px 15px 25px 0;
+}
+
+.navbar {
+    background-color: #2C4B60;
+    margin-bottom: 0px;
+}
+
+
+#first_content{
+    background-color: #2D3E50
+}
+
+#second_content{
+    background-color: white
+}
+
+.white {
+    color: white;
+}
+
+
+#fourth_content{
+    background-color: #2D3E50
+}
+
+.separator {
+ height: 10px;
+ background: repeating-linear-gradient(
+    90deg,
+    #17A086,
+    #18B596 ,
+    #19CEAB ,
+    #A0F1E0 
+  );
+}
+
+li > a{
+    color: #3BD4B5 !important;
+}
+
+.borda {
+    outline: 1px solid gray;
+}
+
+.footerp{
+    padding-top: 35px;
+    padding-bottom: 3px;
+}
+
+.sep120top{
+    padding-top: 120px;
+}
+
+.sep50bot{
+    padding-bottom: 50px;
+}
+
+.sep40bot{
+    padding-bottom: 40px;
+}
+
+.sep30bot{
+    padding-bottom: 30px;
+}
+
+.sep90bot{
+    padding-bottom: 90px;
+}
+
+@font-face {
+    font-family: "opensans";
+    src: url(../fonts/OpenSans-Light.ttf);
+}
+
+.opensans{
+    font-family: opensans;
+}
+
+@font-face {
+    font-family: "opensansbold";
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+
+.opensansbold{
+    font-family: opensansbold;
+}
+
+
+@font-face {
+    font-family: "georgia";
+    src: url(../fonts/georgia.ttf);
+}
+
+.georgia{
+    font-family: georgia;
+}
